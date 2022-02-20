@@ -1,4 +1,6 @@
 module.exports = {
     outputDir: './docs',
-    publicPath: '/forif_2022_introduction/',
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/forif_2022_introduction/'
+    : '/',
 }

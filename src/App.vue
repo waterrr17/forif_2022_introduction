@@ -7,9 +7,9 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="/">Home</b-nav-item>
-        <b-nav-item href="/about">About FORIF</b-nav-item>
-        <b-nav-item href="/game">Game</b-nav-item>
+        <b-nav-item href="/#/">Home</b-nav-item>
+        <b-nav-item href="/#/about">About FORIF</b-nav-item>
+        <b-nav-item href="/#/game">Game</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>

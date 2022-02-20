@@ -27,6 +27,9 @@
                 <h3>암암 Python만큼 편한게 없긴 하죠</h3>
                 <h5>기초 언어이기도 하고 OOP (객체 지향 프로그래밍)의 개념을 잡는 데에 좋은 언어입니다!
 <br>관심 있으시면 FORIF 파이썬 스터디를 지원해보시는 것은 어떤가요?!</h5>
+                <a href="https://docs.google.com/spreadsheets/d/1-KGVItlbKowQpX5Ht_TDdMpiI-GyExaalaknWoQr1zc/edit?usp=sharing">
+                    이름 남기고 스터디 신청 알림 받기
+                </a>
                 <b-button @click="returnPTwo">GO BACK</b-button>
                 <b-button variant="success" @click="$emit('pTwoEnd')">NEXT</b-button>
             </div>

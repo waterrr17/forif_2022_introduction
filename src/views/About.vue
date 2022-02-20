@@ -15,6 +15,10 @@
       <h3>즐거운 MT와 착한 사람들</h3>
       <h5>2022년에는 방역수칙을 지키는 선에서 다양한 행사와, 엠티도 계획 중에 있습니다.<br>
       코딩도 잘하고, 놀기도 잘 노는 FORIF 사람들과 즐거운 대학생활을 즐겨보세요!</h5>
+      <br>
+      <a target="_blank" href="https://docs.google.com/spreadsheets/d/1-KGVItlbKowQpX5Ht_TDdMpiI-GyExaalaknWoQr1zc/edit?usp=sharing">
+        꿀잼 동아리 FORIF 부원모집 알림 받기
+      </a>
     </div>
   </div>
 </template>

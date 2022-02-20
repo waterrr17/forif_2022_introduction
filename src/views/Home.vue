@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <h1>Welcome to FORIF</h1>
+    
     <br><br>
     <transition name="slide-fade">
       <div v-if="show">
