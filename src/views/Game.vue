@@ -25,7 +25,7 @@ export default {
   methods:{
     startGame(){
       this.$store.commit('changeName',this.name);
-      this.$router.push('/gameinschool');
+      this.$router.push('/forif_2022_introduction/#/gameinschool');
     }
   }
 }

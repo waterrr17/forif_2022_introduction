@@ -1,15 +1,15 @@
 <template>
   <div>
   <b-navbar toggleable="lg" type="dark" variant="dark">
-    <b-navbar-brand href="/">FORIF</b-navbar-brand>
+    <b-navbar-brand href="/forif_2022_introduction/#/">FORIF</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="/#/">Home</b-nav-item>
-        <b-nav-item href="/#/about">About FORIF</b-nav-item>
-        <b-nav-item href="/#/game">Game</b-nav-item>
+        <b-nav-item href="/forif_2022_introduction/#/">Home</b-nav-item>
+        <b-nav-item href="/forif_2022_introduction/#/about">About FORIF</b-nav-item>
+        <b-nav-item href="/forif_2022_introduction/#/game">Game</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
