@@ -1,3 +1,4 @@
 module.exports = {
-    publicPath: '/forif_2022_introduction',
+    outputDir: './docs',
+    publicPath: '/forif_2022_introduction/',
 }
