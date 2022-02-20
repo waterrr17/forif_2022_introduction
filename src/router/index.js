@@ -19,7 +19,21 @@ const routes = [
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/About.vue')
     }
-  }
+  },
+  {
+    path: '/game',
+    name: 'game',
+    component: function(){
+      return import(/* webpackChunkName: "gameinschool" */ '../views/Game.vue')
+    }
+  },
+  {
+    path: '/gameinschool',
+    name: 'gameInSchool',
+    component: function(){
+      return import(/* webpackChunkName: "gameinschool" */ '../views/gameInSchool.vue')
+    }
+  },
 ]
 
 const router = new VueRouter({

@@ -1,20 +1,54 @@
 <template>
+  <div>
+  <b-navbar toggleable="lg" type="dark" variant="dark">
+    <b-navbar-brand href="/">FORIF</b-navbar-brand>
+
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav>
+        <b-nav-item href="/">Home</b-nav-item>
+        <b-nav-item href="/about">About FORIF</b-nav-item>
+        <b-nav-item href="/game">Game</b-nav-item>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
+
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
+  </div>
   </div>
 </template>
 
+<script>
+import forif from './assets/forif.png'
+
+export default {
+  data(){
+    return {
+      forif: forif,
+    }
+  }
+}
+</script>
+
+
+
 <style>
+@font-face {
+    font-family: 'IM_Hyemin-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'IM_Hyemin-Bold',Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  margin-top: 5%;
+  margin-bottom: 7%;
 }
 
 #nav {
